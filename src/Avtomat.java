@@ -2,6 +2,7 @@ import Products.Product;
 import Products.Water;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -64,40 +65,45 @@ public class Avtomat {
                     }
                     if (getCoin() >= 25) {
                         productList.add(new Product(" Water", 25));
-                        for (Product p : productList) {
-                            System.out.println(p);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 9- throw more coins,\n 0- exit");
                         print();
                     }
                     if (getCoin() >= 35) {
                         productList.add(new Product("Peanuts", 35));
-                        for (Product p1 : productList) {
-                            System.out.println(p1);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 4- buy Peanuts,\n Put 9- throw more coins,\n 0- exit");
                         print();
                     }
                     if (getCoin() >= 40) {
                         productList.add(new Product("Snickers", 40));
-                        for (Product p2 : productList) {
-                            System.out.println(p2);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 4- buy Peanuts,\n Put 5- buy Snickers,\n Put 9- throw more coins,\n 0- exit");
                         print();
                     }
                     if (getCoin() >= 60) {
                         productList.add(new Product("Fanta", 60));
-                        for (Product p3 : productList) {
-                            System.out.println(p3);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 4- buy Peanuts,\n Put 5- buy Snickers,\n  Put 6- buy Fanta,\n Put 9- throw more coins,\n 0- exit");
                         print();
                     }
                     if (getCoin() >= 100) {
                         productList.add(new Product("BananaChips", 100));
-                        for (Product p4 : productList) {
-                            System.out.println(p4);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 4- buy Peanuts,\n Put 5- buy Snickers,\n  Put 6- buy Fanta,\n Put 7- buy BananaChips ,\n Put 9- throw more coins,\n 0- exit");
                         print();
@@ -111,41 +117,45 @@ public class Avtomat {
                     }
                     if (getCoin() >= 25) {
                         productList.add(new Product("Water", 25));
-                        for (Product p : productList) {
-                            System.out.println(p);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 9- throw more coins,\n 0- exit");
                         print();
                     }
-                    if (getCoin() >= 35) {
+                    if (getCoin()>= 35) {
                         productList.add(new Product("Peanuts", 35));
-                        for (Product p1 : productList) {
-                            System.out.println(p1);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 4- buy Peanuts,\n Put 9- throw more coins,\n 0- exit");
                         print();
-
                     }
                     if (getCoin() >= 40) {
                         productList.add(new Product("Snickers", 40));
-                        for (Product p2 : productList) {
-                            System.out.println(p2);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 4- buy Peanuts,\n Put 5- buy Snickers,\n Put 9- throw more coins,\n 0- exit");
                         print();
                     }
                     if (getCoin() >= 60) {
                         productList.add(new Product("Fanta", 60));
-                        for (Product p3 : productList) {
-                            System.out.println(p3);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 4- buy Peanuts,\n Put 5- buy Snickers,\n  Put 6- buy Fanta,\n Put 9- throw more coins,\n 0- exit");
                         print();
                     }
                     if (getCoin() >= 100) {
                         productList.add(new Product("BananaChips", 100));
-                        for (Product p4 : productList) {
-                            System.out.println(p4);
+                        Iterator ir = productList.iterator();
+                        while (ir.hasNext()){
+                            System.out.println(ir.next());
                         }
                         System.out.println(" Put 3- buy water,\n Put 4- buy Peanuts,\n Put 5- buy Snickers,\n  Put 6- buy Fanta,\n Put 7- buy BananaChips ,\n Put 9- throw more coins,\n 0- exit");
                         print();
@@ -153,7 +163,7 @@ public class Avtomat {
                     break;
             }
         }
-        while (getCoin() < 25 || getCoin() < 35 || getCoin() < 40 || getCoin() < 60 || getCoin() < 100);
+        while (getCoin() < 25 | getCoin() < 35 | getCoin() < 40 | getCoin() < 60 | getCoin() < 100);
     }
 
 

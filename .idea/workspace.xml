@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fb05625-1d87-4828-be18-983f21f09da2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labor32.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Avtomat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Products/BananaChips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Products/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Products/Fanta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Products/Peanuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Products/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Products/Water.java" afterDir="false" />
+    <list default="true" id="2fb05625-1d87-4828-be18-983f21f09da2" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Avtomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Avtomat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +78,16 @@
       <workItem from="1658162007942" duration="330000" />
       <workItem from="1658162403705" duration="1283000" />
       <workItem from="1658163751464" duration="5979000" />
-      <workItem from="1658208822927" duration="7651000" />
+      <workItem from="1658208822927" duration="10565000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1658228328999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658228328999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +103,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
